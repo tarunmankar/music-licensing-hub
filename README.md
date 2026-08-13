@@ -1,43 +1,43 @@
-# 🎵 Music Licensing Hub
+# Music Licensing Hub
 
-A premium multi-page resource website about royalty-free cinematic music, licensing guides, and film scoring — built to support [Tarun Music](https://www.tarunmusic.co.in) on Google.
+A free resource website for content creators, filmmakers, and video editors looking to understand royalty-free music licensing, avoid YouTube copyright strikes, and find the right background music for their projects.
 
 🌐 **Live Site:** https://tarunmankar.github.io/music-licensing-hub/
 
 ---
 
-## About This Site
+## What This Site Covers
 
-**Music Licensing Hub** is an informational website covering:
-- Royalty-free music licensing for YouTubers, filmmakers, and content creators
-- How to avoid YouTube copyright strikes and Content ID claims
-- Cinematic background music genres and use cases
-- ElevenLabs Creator Marketplace licensing explained
-- Custom film scoring and stem edits
+- How royalty-free music licensing works
+- Difference between Social Media, Commercial, and Broadcast licenses
+- How to avoid YouTube Content ID claims
+- Cinematic background music genres and their use cases
+- Custom film scoring and stem edits — what they are and when you need them
+- ElevenLabs Creator Marketplace — how it works and why it matters for creators
 
-All content links back to [Tarun Music](https://www.tarunmusic.co.in) — the official royalty-free music library by **Tarun Mankar** (AI Content Developer & Cinematic Composer), licensed via ElevenLabs Creator Marketplace.
+---
+
+## Featured Resource
+
+The music catalog and licensing content on this site references **[Tarun Music](https://www.tarunmusic.co.in)** — a royalty-free cinematic music library licensed via the ElevenLabs Creator Marketplace. Tracks cover cinematic, action, ambient, corporate, and game soundtrack genres with perpetual worldwide commercial rights.
 
 ---
 
 ## Pages
 
-| Page | Live URL | Description |
-|------|----------|-------------|
-| Home | [music-licensing-hub/](https://tarunmankar.github.io/music-licensing-hub/) | Overview of royalty-free music and licensing |
-| Catalog | [/catalog.html](https://tarunmankar.github.io/music-licensing-hub/catalog.html) | Cinematic music genres and track showcase |
-| Licensing | [/licensing.html](https://tarunmankar.github.io/music-licensing-hub/licensing.html) | Commercial license tiers explained |
-| Services | [/services.html](https://tarunmankar.github.io/music-licensing-hub/services.html) | Custom film scoring and stem edits |
-| About | [/about.html](https://tarunmankar.github.io/music-licensing-hub/about.html) | Creator bio — Tarun Mankar |
-| Blog | [/blog.html](https://tarunmankar.github.io/music-licensing-hub/blog.html) | Articles on copyright, licensing, and music selection |
-| Blog Article | [/blog-copyright-guide.html](https://tarunmankar.github.io/music-licensing-hub/blog-copyright-guide.html) | Avoiding YouTube copyright strikes — full guide |
-| Contact | [/contact.html](https://tarunmankar.github.io/music-licensing-hub/contact.html) | Inquiry form for licensing and custom scoring |
+| Page | URL | Topic |
+|------|-----|-------|
+| Home | [/](https://tarunmankar.github.io/music-licensing-hub/) | Overview and intro to royalty-free music |
+| Catalog | [/catalog.html](https://tarunmankar.github.io/music-licensing-hub/catalog.html) | Genre breakdown and track showcase |
+| Licensing | [/licensing.html](https://tarunmankar.github.io/music-licensing-hub/licensing.html) | License tiers explained with comparison table |
+| Services | [/services.html](https://tarunmankar.github.io/music-licensing-hub/services.html) | Custom scoring and stem edits guide |
+| About | [/about.html](https://tarunmankar.github.io/music-licensing-hub/about.html) | About the creator — Tarun Mankar |
+| Blog | [/blog.html](https://tarunmankar.github.io/music-licensing-hub/blog.html) | Articles on copyright, BGM selection, licensing |
+| Copyright Guide | [/blog-copyright-guide.html](https://tarunmankar.github.io/music-licensing-hub/blog-copyright-guide.html) | How to avoid YouTube copyright strikes |
+| Contact | [/contact.html](https://tarunmankar.github.io/music-licensing-hub/contact.html) | Licensing inquiries and custom score requests |
 
 ---
 
-## Tech Stack
+## Tech
 
-Pure HTML · Vanilla CSS · Vanilla JS · GitHub Pages
-
----
-
-*Created by [Tarun Mankar](https://tarunmankar.github.io/)*
+Static site — HTML, CSS, JavaScript. Hosted on GitHub Pages.
