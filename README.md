@@ -21,15 +21,16 @@ All content links back to [Tarun Music](https://www.tarunmusic.co.in) — the of
 
 ## Pages
 
-| Page | Description |
-|------|-------------|
-| Home | Overview of royalty-free music and licensing |
-| Catalog | Cinematic music genres and track showcase |
-| Licensing | Commercial license tiers explained |
-| Services | Custom film scoring and stem edits |
-| About | Creator bio — Tarun Mankar |
-| Blog | SEO articles on copyright, licensing, and music selection |
-| Contact | Inquiry form for licensing and custom scoring |
+| Page | Live URL | Description |
+|------|----------|-------------|
+| Home | [music-licensing-hub/](https://tarunmankar.github.io/music-licensing-hub/) | Overview of royalty-free music and licensing |
+| Catalog | [/catalog.html](https://tarunmankar.github.io/music-licensing-hub/catalog.html) | Cinematic music genres and track showcase |
+| Licensing | [/licensing.html](https://tarunmankar.github.io/music-licensing-hub/licensing.html) | Commercial license tiers explained |
+| Services | [/services.html](https://tarunmankar.github.io/music-licensing-hub/services.html) | Custom film scoring and stem edits |
+| About | [/about.html](https://tarunmankar.github.io/music-licensing-hub/about.html) | Creator bio — Tarun Mankar |
+| Blog | [/blog.html](https://tarunmankar.github.io/music-licensing-hub/blog.html) | Articles on copyright, licensing, and music selection |
+| Blog Article | [/blog-copyright-guide.html](https://tarunmankar.github.io/music-licensing-hub/blog-copyright-guide.html) | Avoiding YouTube copyright strikes — full guide |
+| Contact | [/contact.html](https://tarunmankar.github.io/music-licensing-hub/contact.html) | Inquiry form for licensing and custom scoring |
 
 ---
 
