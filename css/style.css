@@ -309,14 +309,14 @@ ul { list-style: none; }
 }
 .hero-title {
   font-family: var(--font-heading);
-  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
   font-weight: 900;
-  line-height: 1.1;
+  line-height: 1.25;
   margin-bottom: 24px;
   animation: fadeInUp 0.8s ease 0.2s both;
 }
 .hero-subtitle {
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-size: clamp(0.88rem, 1.6vw, 1.05rem);
   color: var(--text-secondary);
   max-width: 640px;
   margin: 0 auto 36px;
