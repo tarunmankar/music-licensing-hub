@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Tarun Mankar — AI Content Developer & Cinematic Music Composer</title>
+  <meta name="description" content="Meet Tarun Mankar — AI Content Developer, Gen AI Expert & Cinematic Music Composer behind Tarun Music. Official ElevenLabs Creator. Builder of India's premier royalty-free music library." />
+  <meta name="keywords" content="tarun mankar, ai content developer, gen ai expert, cinematic music composer, elevenlabs creator, tarun music about, india music composer" />
+  <link rel="canonical" href="https://www.tarunmusic.co.in/about" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .timeline {
+      position: relative;
+      max-width: 700px;
+      margin: 40px auto 0;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--primary), transparent);
+    }
+    .timeline-item {
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+      margin-bottom: 32px;
+      position: relative;
+    }
+    .tl-dot {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background: var(--bg-card);
+      border: 2px solid var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      z-index: 1;
+    }
+    .tl-content { flex-grow: 1; }
+    .tl-year {
+      font-family: var(--font-heading);
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--primary-light);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .tl-title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .tl-desc { font-size: 0.88rem; color: var(--text-secondary); }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 32px;
+    }
+    .skill-item {
+      background: var(--bg-card);
+      border: 1px solid var(--bg-card-border);
+      border-radius: var(--radius);
+      padding: 20px;
+      text-align: center;
+      transition: all var(--transition);
+    }
+    .skill-item:hover {
+      border-color: rgba(168,85,247,0.4);
+      transform: translateY(-3px);
+    }
+    .skill-icon { font-size: 1.8rem; margin-bottom: 8px; }
+    .skill-name { font-family: var(--font-heading); font-weight: 700; font-size: 0.9rem; }
+    @media (max-width: 768px) {
+      .skills-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">🎵</span>
+        <span class="logo-text">Tarun<span class="logo-accent">Music</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="catalog.html" class="nav-link">Catalog</a></li>
+        <li><a href="licensing.html" class="nav-link">Licensing</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="about.html" class="nav-link active">About</a></li>
+        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="https://www.tarunmusic.co.in/catalog" target="_blank" rel="noopener" class="btn btn-primary nav-cta">Explore Library →</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="hero-badge">👤 Creator Story</div>
+      <h1 class="page-hero-title">Meet <span class="gradient-text">Tarun Mankar</span></h1>
+      <p class="page-hero-subtitle">AI Content Developer · Gen AI Expert · Cinematic Music Composer · Official ElevenLabs Creator</p>
+    </div>
+  </section>
+
+  <!-- Creator Bio -->
+  <section class="section" style="background: var(--bg-base);">
+    <div class="container">
+      <div class="creator-inner">
+        <div class="creator-visual">
+          <div class="creator-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">TM</div>
+          </div>
+          <div class="creator-badges">
+            <div class="cb-badge">🎵 Cinematic Composer</div>
+            <div class="cb-badge">🤖 Gen AI Expert</div>
+            <div class="cb-badge">💻 AI Content Developer</div>
+            <div class="cb-badge">🎧 ElevenLabs Creator</div>
+          </div>
+          <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 10px; align-items: center; width: 100%;">
+            <a href="https://www.tarunmusic.co.in/about" target="_blank" rel="noopener" class="btn btn-primary" style="width: 100%; max-width: 280px; justify-content: center;" id="about-official-btn">Official Bio Page →</a>
+            <a href="https://tarunmankar.github.io/" target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; max-width: 280px; justify-content: center;" id="about-portfolio-btn">View Portfolio →</a>
+            <a href="https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6" target="_blank" rel="noopener" class="btn btn-ghost" style="width: 100%; max-width: 280px; justify-content: center;" id="about-el-btn">ElevenLabs Profile →</a>
+          </div>
+        </div>
+        <div class="creator-content">
+          <span class="section-tag">About the Creator</span>
+          <h2 class="section-title">The Vision Behind <span class="gradient-text">Tarun Music</span></h2>
+          <p class="creator-bio">
+            Tarun Mankar is an <strong>AI Content Developer, Generative AI Expert, and Cinematic Music Composer</strong> based in India. He founded <a href="https://www.tarunmusic.co.in" target="_blank" rel="noopener" class="inline-link">Tarun Music</a> with a singular mission: to democratize access to high-quality, legally safe background music for content creators, filmmakers, and media brands across the globe.
+          </p>
+          <p class="creator-bio">
+            With deep expertise in generative AI and classical orchestration, Tarun bridges the gap between cutting-edge technology and timeless musical storytelling. Every track in the <a href="https://www.tarunmusic.co.in/catalog" target="_blank" rel="noopener" class="inline-link">Tarun Music catalog</a> is crafted to meet cinematic industry standards — from the emotional subtlety of ambient underscores to the explosive power of action trailer music.
+          </p>
+          <p class="creator-bio">
+            As an official creator on the <a href="https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6" target="_blank" rel="noopener" class="inline-link">ElevenLabs Creator Marketplace</a> — the world's leading audio AI platform valued at $11 billion and backed by Sequoia Capital and a16z — Tarun's music comes with the highest commercial licensing standards available. Every track is 100% monetization safe, with zero YouTube Content ID claims and perpetual worldwide rights.
+          </p>
+          <p class="creator-bio">
+            Beyond music, Tarun is a thought leader in AI content development, building generative workflows, AI creative pipelines, and digital media systems. His <a href="https://tarunmankar.github.io/" target="_blank" rel="noopener" class="inline-link">portfolio</a> spans AI tools, creative automation, and full-stack content development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" style="background: var(--bg-card-2);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Expertise</span>
+        <h2 class="section-title">Skills &amp; <span class="gradient-text">Specializations</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item"><div class="skill-icon">🎼</div><div class="skill-name">Cinematic Composition</div></div>
+        <div class="skill-item"><div class="skill-icon">🤖</div><div class="skill-name">Generative AI (GenAI)</div></div>
+        <div class="skill-item"><div class="skill-icon">🎹</div><div class="skill-name">Orchestral Arrangement</div></div>
+        <div class="skill-item"><div class="skill-icon">🎛️</div><div class="skill-name">Audio Production &amp; Mixing</div></div>
+        <div class="skill-item"><div class="skill-icon">💻</div><div class="skill-name">AI Content Development</div></div>
+        <div class="skill-item"><div class="skill-icon">🎬</div><div class="skill-name">Music Licensing &amp; IP</div></div>
+        <div class="skill-item"><div class="skill-icon">🌐</div><div class="skill-name">Digital Media Strategy</div></div>
+        <div class="skill-item"><div class="skill-icon">🎮</div><div class="skill-name">Game Audio Design</div></div>
+        <div class="skill-item"><div class="skill-icon">📊</div><div class="skill-name">SEO &amp; Content Marketing</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="section" style="background: var(--bg-base);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Journey</span>
+        <h2 class="section-title">Building <span class="gradient-text">Tarun Music</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="tl-dot">🎵</div>
+          <div class="tl-content">
+            <div class="tl-year">Foundation</div>
+            <div class="tl-title">Tarun Music Library Launched</div>
+            <p class="tl-desc">Founded <a href="https://www.tarunmusic.co.in" target="_blank" rel="noopener" class="inline-link">Tarun Music</a> to provide the creator economy with legally safe, premium cinematic background music.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-dot">🤖</div>
+          <div class="tl-content">
+            <div class="tl-year">AI Integration</div>
+            <div class="tl-title">GenAI Music Production Pipeline</div>
+            <p class="tl-desc">Developed a proprietary AI-assisted composition workflow, blending classical orchestration with generative synthesis for high-velocity, high-quality music production.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-dot">🎧</div>
+          <div class="tl-content">
+            <div class="tl-year">ElevenLabs Partnership</div>
+            <div class="tl-title">Official ElevenLabs Creator Status</div>
+            <p class="tl-desc">Achieved official creator status on <a href="https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6" target="_blank" rel="noopener" class="inline-link">ElevenLabs Creator Marketplace</a>, providing the strongest commercial licensing guarantees in the industry.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-dot">🌍</div>
+          <div class="tl-content">
+            <div class="tl-year">Global Expansion</div>
+            <div class="tl-title">Worldwide Commercial Licensing</div>
+            <p class="tl-desc">Expanded the <a href="https://www.tarunmusic.co.in/catalog" target="_blank" rel="noopener" class="inline-link">music catalog</a> to cover all genres and use cases, with worldwide perpetual commercial rights for creators across 150+ countries.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-dot">🚀</div>
+          <div class="tl-content">
+            <div class="tl-year">Now</div>
+            <div class="tl-title">Custom Scoring &amp; New Releases</div>
+            <p class="tl-desc">Actively producing custom scores, stem packages, and new catalog additions while expanding <a href="https://www.tarunmusic.co.in/services" target="_blank" rel="noopener" class="inline-link">bespoke services</a> for filmmakers and brands worldwide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner section">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-orb"></div>
+        <h2 class="cta-title">Work with Tarun Mankar</h2>
+        <p class="cta-subtitle">Custom scoring, licensing inquiries, collaborations, and press. Reach out directly.</p>
+        <div class="cta-buttons">
+          <a href="https://www.tarunmusic.co.in/contact" target="_blank" rel="noopener" class="btn btn-white btn-lg" id="cta-about-contact">💬 Get in Touch</a>
+          <a href="https://www.tarunmusic.co.in/catalog" target="_blank" rel="noopener" class="btn btn-outline-white btn-lg" id="cta-about-catalog">🎵 Browse Music Catalog</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="nav-logo"><span class="logo-icon">🎵</span><span class="logo-text">Tarun<span class="logo-accent">Music</span></span></a><p class="footer-tagline">Premium royalty-free cinematic music for creators worldwide.</p><div class="footer-el-badge">Official ElevenLabs Creator</div></div>
+        <div class="footer-col"><h4 class="footer-heading">Library</h4><ul class="footer-links"><li><a href="https://www.tarunmusic.co.in/catalog" target="_blank" rel="noopener">Browse Catalog</a></li><li><a href="https://www.tarunmusic.co.in/search" target="_blank" rel="noopener">Search by Genre</a></li><li><a href="https://www.tarunmusic.co.in/services" target="_blank" rel="noopener">Custom Scoring</a></li></ul></div>
+        <div class="footer-col"><h4 class="footer-heading">Licensing</h4><ul class="footer-links"><li><a href="https://www.tarunmusic.co.in/licensing" target="_blank" rel="noopener">License Tiers</a></li><li><a href="https://www.tarunmusic.co.in/terms" target="_blank" rel="noopener">Terms of Use</a></li><li><a href="https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6" target="_blank" rel="noopener">ElevenLabs Profile</a></li></ul></div>
+        <div class="footer-col"><h4 class="footer-heading">Creator</h4><ul class="footer-links"><li><a href="https://www.tarunmusic.co.in/about" target="_blank" rel="noopener">About Tarun Mankar</a></li><li><a href="https://tarunmankar.github.io/" target="_blank" rel="noopener">Portfolio</a></li><li><a href="https://www.tarunmusic.co.in/contact" target="_blank" rel="noopener">Contact</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>© 2025 <a href="https://www.tarunmusic.co.in" target="_blank" rel="noopener">Tarun Music</a> by Tarun Mankar. Licensed via ElevenLabs Creator Marketplace.</p></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

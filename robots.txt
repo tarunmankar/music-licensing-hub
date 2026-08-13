@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tarunmankar.github.io/music-licensing-hub/sitemap.xml

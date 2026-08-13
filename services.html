@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Film Scoring & Stem Edits — Services | Tarun Music</title>
+  <meta name="description" content="Custom cinematic music composition, stem splits, and bespoke film scoring by Tarun Mankar. Tailored to your director's brief. ElevenLabs certified. Request a custom score today." />
+  <meta name="keywords" content="custom film scoring, stem edits, bespoke music composition, tarun mankar composer, cinematic music producer, custom background music" />
+  <link rel="canonical" href="https://www.tarunmusic.co.in/services" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .process-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      position: relative;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .process-steps::before {
+      content: '';
+      position: absolute;
+      left: 28px;
+      top: 48px;
+      bottom: 48px;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--primary), transparent);
+    }
+    .process-step {
+      display: flex;
+      gap: 28px;
+      align-items: flex-start;
+      padding: 24px 0;
+      position: relative;
+    }
+    .step-num {
+      width: 56px;
+      height: 56px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background: var(--gradient-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 1.2rem;
+      z-index: 1;
+    }
+    .step-content h4 {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+    }
+    .step-content p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    .stem-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-top: 32px;
+    }
+    .stem-item {
+      background: var(--bg-card);
+      border: 1px solid var(--bg-card-border);
+      border-radius: var(--radius);
+      padding: 24px 16px;
+      text-align: center;
+      transition: all var(--transition);
+    }
+    .stem-item:hover {
+      border-color: rgba(168,85,247,0.5);
+      transform: translateY(-4px);
+    }
+    .stem-icon { font-size: 2rem; margin-bottom: 10px; }
+    .stem-name {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 768px) {
+      .stem-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">🎵</span>
+        <span class="logo-text">Tarun<span class="logo-accent">Music</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="catalog.html" class="nav-link">Catalog</a></li>
+        <li><a href="licensing.html" class="nav-link">Licensing</a></li>
+        <li><a href="services.html" class="nav-link active">Services</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="https://www.tarunmusic.co.in/catalog" target="_blank" rel="noopener" class="btn btn-primary nav-cta">Explore Library →</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="hero-badge">✨ Custom Services</div>
+      <h1 class="page-hero-title">Custom Film Scoring &amp; <span class="gradient-text">Stem Edits</span></h1>
+      <p class="page-hero-subtitle">Bespoke cinematic compositions tailored to your director's brief, mood boards, and scene timings — by Tarun Mankar.</p>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="section" style="background: var(--bg-base);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Professional Music <span class="gradient-text">Production Services</span></h2>
+        <p class="section-subtitle">From single-scene scores to full-feature film soundtracks, we deliver studio-grade cinematic audio on time.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" id="svc-custom-score">
+          <div class="service-icon">🎼</div>
+          <h3 class="service-title">Custom Film Scoring</h3>
+          <p class="service-desc">Original compositions crafted to match your video's exact emotional arc, scene duration, and creative vision. Submit a mood board and receive a bespoke orchestral or electronic score.</p>
+          <div class="service-tags">
+            <span class="service-tag">Orchestral</span>
+            <span class="service-tag">Hybrid Electronic</span>
+            <span class="service-tag">Scene-Synced</span>
+            <span class="service-tag">Revisions Included</span>
+          </div>
+          <div style="margin-top: 20px;">
+            <a href="https://www.tarunmusic.co.in/services" target="_blank" rel="noopener" class="btn btn-primary" id="svc-score-cta">Request Custom Score →</a>
+          </div>
+        </div>
+
+        <div class="service-card" id="svc-stems">
+          <div class="service-icon">🎛️</div>
+          <h3 class="service-title">Stem Splits &amp; Track Layers</h3>
+          <p class="service-desc">Purchase individual instrument stems from any catalog track — drums, bass, melody, pads, FX, and more. Build your perfect mix with complete creative control.</p>
+          <div class="service-tags">
+            <span class="service-tag">Drums</span>
+            <span class="service-tag">Melody</span>
+            <span class="service-tag">Bass</span>
+            <span class="service-tag">Pads &amp; FX</span>
+            <span class="service-tag">Vocals</span>
+          </div>
+          <div style="margin-top: 20px;">
+            <a href="https://www.tarunmusic.co.in/services" target="_blank" rel="noopener" class="btn btn-primary" id="svc-stems-cta">Order Stem Package →</a>
+          </div>
+        </div>
+
+        <div class="service-card" id="svc-trailer">
+          <div class="service-icon">🎬</div>
+          <h3 class="service-title">Trailer &amp; Teaser Music</h3>
+          <p class="service-desc">High-impact 30-second, 60-second, and 90-second trailer cuts designed to maximize emotional impact in teaser trailers, gaming reveals, and product launches.</p>
+          <div class="service-tags">
+            <span class="service-tag">30s / 60s / 90s Versions</span>
+            <span class="service-tag">Tension Builds</span>
+            <span class="service-tag">Climax Moments</span>
+          </div>
+          <div style="margin-top: 20px;">
+            <a href="https://www.tarunmusic.co.in/services" target="_blank" rel="noopener" class="btn btn-primary" id="svc-trailer-cta">Request Trailer Music →</a>
+          </div>
+        </div>
+
+        <div class="service-card" id="svc-podcast">
+          <div class="service-icon">🎙️</div>
+          <h3 class="service-title">Podcast &amp; YouTube Intros</h3>
+          <p class="service-desc">Custom intro/outro music, sting transitions, and loopable background beds designed specifically for podcasts, YouTube channels, and streaming shows.</p>
+          <div class="service-tags">
+            <span class="service-tag">10s / 30s Intros</span>
+            <span class="service-tag">Loop-Ready BGM</span>
+            <span class="service-tag">Sting FX</span>
+            <span class="service-tag">Brand Voice</span>
+          </div>
+          <div style="margin-top: 20px;">
+            <a href="https://www.tarunmusic.co.in/services" target="_blank" rel="noopener" class="btn btn-primary" id="svc-podcast-cta">Order Podcast Music →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stem Anatomy -->
+  <section class="section" style="background: var(--bg-card-2);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What Are Stems?</span>
+        <h2 class="section-title">Unlock Complete <span class="gradient-text">Creative Control</span></h2>
+        <p class="section-subtitle">Stems are individual instrument channels of a full composition. Use them to sync music precisely to your visuals.</p>
+      </div>
+      <div class="stem-grid">
+        <div class="stem-item"><div class="stem-icon">🥁</div><div class="stem-name">Drums &amp; Percussion</div></div>
+        <div class="stem-item"><div class="stem-icon">🎸</div><div class="stem-name">Bass Layer</div></div>
+        <div class="stem-item"><div class="stem-icon">🎹</div><div class="stem-name">Melodic Lead</div></div>
+        <div class="stem-item"><div class="stem-icon">🎻</div><div class="stem-name">Strings &amp; Orchestral</div></div>
+        <div class="stem-item"><div class="stem-icon">🌐</div><div class="stem-name">Pads &amp; Atmosphere</div></div>
+        <div class="stem-item"><div class="stem-icon">🎷</div><div class="stem-name">Brass &amp; Winds</div></div>
+        <div class="stem-item"><div class="stem-icon">⚡</div><div class="stem-name">FX &amp; Transitions</div></div>
+        <div class="stem-item"><div class="stem-icon">🎤</div><div class="stem-name">Vocal Textures</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section" style="background: var(--bg-base);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">How It Works</span>
+        <h2 class="section-title">Simple <span class="gradient-text">4-Step Process</span></h2>
+        <p class="section-subtitle">From brief to delivery — a streamlined, professional workflow.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>Submit Your Brief</h4>
+            <p>Share your project details, visual reference, mood board, target duration, and any reference tracks via the <a href="https://www.tarunmusic.co.in/contact" target="_blank" rel="noopener" class="inline-link">contact form</a>.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>Creative Consultation</h4>
+            <p>Tarun Mankar reviews your brief and schedules a short consultation to align on tone, genre, instrumentation, and delivery timeline.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h4>Composition &amp; Review</h4>
+            <p>The custom score is composed and shared as a watermarked preview. Two rounds of revisions are included to ensure perfect alignment.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h4>Delivery &amp; Licensing</h4>
+            <p>Receive high-quality WAV/FLAC files plus stem packages (if ordered), along with an official ElevenLabs commercial license document.</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top: 48px;">
+        <a href="https://www.tarunmusic.co.in/services" target="_blank" rel="noopener" class="btn btn-primary btn-lg" id="services-main-cta">✨ Request Custom Score or Stems →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner section">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-orb"></div>
+        <h2 class="cta-title">Let's Score Your Masterpiece Together</h2>
+        <p class="cta-subtitle">Custom cinematic music crafted by a Gen AI Expert &amp; Composer. ElevenLabs certified.</p>
+        <div class="cta-buttons">
+          <a href="https://www.tarunmusic.co.in/services" target="_blank" rel="noopener" class="btn btn-white btn-lg" id="cta-services-main">✨ Explore All Services</a>
+          <a href="contact.html" class="btn btn-outline-white btn-lg" id="cta-contact-svc">💬 Get a Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="nav-logo"><span class="logo-icon">🎵</span><span class="logo-text">Tarun<span class="logo-accent">Music</span></span></a><p class="footer-tagline">Premium royalty-free cinematic music for creators worldwide.</p><div class="footer-el-badge">Official ElevenLabs Creator</div></div>
+        <div class="footer-col"><h4 class="footer-heading">Library</h4><ul class="footer-links"><li><a href="https://www.tarunmusic.co.in/catalog" target="_blank" rel="noopener">Browse Catalog</a></li><li><a href="https://www.tarunmusic.co.in/search" target="_blank" rel="noopener">Search by Genre</a></li><li><a href="https://www.tarunmusic.co.in/services" target="_blank" rel="noopener">Custom Scoring</a></li></ul></div>
+        <div class="footer-col"><h4 class="footer-heading">Licensing</h4><ul class="footer-links"><li><a href="https://www.tarunmusic.co.in/licensing" target="_blank" rel="noopener">License Tiers</a></li><li><a href="https://www.tarunmusic.co.in/terms" target="_blank" rel="noopener">Terms of Use</a></li><li><a href="https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6" target="_blank" rel="noopener">ElevenLabs Profile</a></li></ul></div>
+        <div class="footer-col"><h4 class="footer-heading">Creator</h4><ul class="footer-links"><li><a href="https://www.tarunmusic.co.in/about" target="_blank" rel="noopener">About Tarun Mankar</a></li><li><a href="https://tarunmankar.github.io/" target="_blank" rel="noopener">Portfolio</a></li><li><a href="https://www.tarunmusic.co.in/contact" target="_blank" rel="noopener">Contact</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>© 2025 <a href="https://www.tarunmusic.co.in" target="_blank" rel="noopener">Tarun Music</a> by Tarun Mankar. Licensed via ElevenLabs Creator Marketplace.</p></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
